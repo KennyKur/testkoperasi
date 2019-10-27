@@ -1,0 +1,299 @@
+/* navbar */
+.skin-blue .navbar
+{
+   background-color: white !important;
+   border-bottom: 1px solid;
+   border-color: antiquewhite;
+}
+.badge.bg-green
+{
+   background  : none !important;
+   border-radius:  0px !important;
+}
+.badge.bg-green > i
+{
+   color: green !important;
+}
+.icon-bar
+{
+   border: 1px solid;
+   border-color: rgba(0,0,0,.5) !important;
+}
+.logo
+{
+   background-color: white !important;
+   color: rgba(0,0,0,.5) !important;
+   border-bottom: 1px solid !important;
+   border-color: antiquewhite !important;
+}
+.logo > div > img
+{
+   visibility: hidden;
+}
+.navbar.navbar-static-top
+{
+   border-left: 1px rgba(216, 192, 192, 0.5) solid !important;
+}
+.dropdown-toggle > .glyphicon, span
+{
+ color: rgba(0,0,0,.5) !important;
+}
+.dropdown-toggle > i
+{
+   color: rgba(0,0,0,.5) !important;
+}
+a > .fa.fa-envelope
+{
+   color:rgba(0,0,0,.5)!important;
+}
+.left-side.sidebar-offcanvas
+{
+   background-color: #343a40 !important   ;
+}
+
+.sidebar-menu > li > a:hover
+{
+   background-color: #4d555e  !important; 
+   color: white !important;
+}
+.sidebar-menu > li > a > span
+{
+   color: white !important;
+}
+.sidebar-menu > li > a
+{
+   border-top: 1px solid #4b545c !important;
+}
+.skin-blue .sidebar > .sidebar-menu > li.active > a
+{
+   background-color: #4d555e  !important;
+   color: white !important;
+}
+
+.treeview, .sidebar, .sidebar-menu > li 
+{
+   border-top: 1px solid #4b545c !important;
+   border-bottom: 1px solid #4b545c !important;
+}
+.sidebar-menu > li > a > img
+{
+   margin-right: 13px !important;
+}
+
+.panel
+{
+   background: none !important;
+  box-shadow: none !important;
+}
+.flexgrid
+{
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+
+.treeview > a > .pull-right
+{
+   color: white !important;
+   line-height: 20px !important;
+}
+.treeview > a > span
+{
+   color: white !important;
+}
+
+/* datagrid pemasukan */
+.datagrid-toolbar
+{
+   line-height: 40px !important;
+   height: 50px !important;
+   padding-right: 10px !important;
+}
+.datagrid-header
+{
+   background: none !important;
+}
+.datagrid-td-rownumber
+{
+   background: none !important;
+}
+.datagrid-header td
+{
+   border-color: #dee2e6 !important;
+}
+.l-btn
+{
+   border : none !important;
+   border-radius: none !important;
+   background: #F5F5F5 !important;
+}
+.l-btn:hover
+{
+   background:rgba(186, 191, 255, 0.459) !important;
+   border-radius: 0px !important;
+}
+.pagination-btn-separator
+{
+   height: 0px !important;
+}
+.input-group > .btn
+{
+   box-shadow: none !important;
+   border-radius: 0px !important;
+
+}
+#tb > .pull-right
+{
+   line-height: 45px;
+}
+.pagination-num
+{
+ background: transparent !important;
+ border: none  !important;
+}
+
+#kode_transaksi::-webkit-input-placeholder
+{
+   text-align: center;
+}
+.l-btn-left.l-btn-icon-left
+{
+   margin-left: 5px !important;
+}
+#filter_tgl + span
+{
+   margin-left: 5px !important;
+}
+.datagrid-cell > span
+{
+   font-weight: 600 !important;
+   font-size: 15px !important;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+td > .datagrid-cell
+{
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+   font-size: 14px !important;
+}
+.pagination-page-list
+{
+   margin-left: 15px !important;
+}
+/* form */
+.panel.window > .panel-header > .panel-title, .panel-tool
+{
+   margin-left: 10px !important;
+   line-height: 40px !important;
+   font-weight: normal !important;
+   font-size: 20px !important;
+   height: 30px !important;
+   
+}
+.panel.window table tbody td:nth-child(2) {
+   display: none !important;
+}
+#form >table > tbody > tr  > td 
+{
+   font-weight: 500 !important;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+   color: #212529 !important;
+   padding: 5px !important;
+}
+.textbox, .textbox > .textbox-text
+{
+   height: 29px !important;
+   border-radius: 5px !important;
+   border-color : rgb(206, 212, 218) !important; 
+   background-color: white !important;
+
+}
+.input-group-addon
+{
+   height: 28px !important;
+   border-radius: 0 5px 5px 0 !important;
+   padding : 5px 12px !important;
+   background-color: white !important ;
+}
+.input-group-addon > .fa.fa-calendar
+{
+   opacity: 0.5 !important;
+}
+#form >table > tbody > tr  > td > .input-group > input, #tgl_transaksi_txt
+{
+   width: 155px !important;
+   border-radius: 5px !important;
+   color: rgb(54, 53, 53) !important;
+   border: 1px solid rgb(206, 212, 218) !important;
+   box-sizing: border-box !important;
+   -moz-box-sizing: border-box !important;
+   -webkit-box-sizing: border-box !important;
+   padding-left: 5px !important;
+   height: 28px !important;
+   outline: none !important;
+}
+
+#form >table > tbody > tr  > td > input
+{
+   width: 100% !important;
+   border-radius: 5px !important;
+   color: rgb(54, 53, 53) !important;
+   border: 1px solid rgb(206, 212, 218) !important;
+   box-sizing: border-box !important;
+   -moz-box-sizing: border-box !important;
+   -webkit-box-sizing: border-box !important;
+   padding-left: 5px !important;
+   height: 28px !important;
+   outline: none !important;
+}
+#form >table > tbody > tr  > td > select, #nama_penyetor, #no_identitas, #alamat, #jenis_id,#ket,#kas
+{
+   width: 100% !important;
+   border-radius: 5px !important;
+   color: rgb(54, 53, 53) !important;
+   border: 1px solid rgb(206, 212, 218) !important;
+   box-sizing: border-box !important;
+   -moz-box-sizing: border-box !important;
+   -webkit-box-sizing: border-box !important;
+   padding-left: 5px !important;
+   height: 28px !important;
+   outline: none !important;
+}
+
+
+.panel.window
+{
+   border: 0px !important;
+}
+
+.panel-header-noborder
+{
+   border-width: 0 0 0px 0 !important;
+}
+.panel-header
+{
+   border-width: 1px !important;
+   border-style: solid !important;
+}
+
+.window-shadow
+{
+   visibility: hidden;
+}
+/* master data */
+.ftitle
+{
+   border-top: 1px !important;
+}
+.ftitle, .panel-header
+{
+   background: #fff !important; 
+   border-color: rgb(222, 226, 230) !important;
+   font-family: "Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+.panel.datagrid > .panel-header > .panel-title
+{
+   margin-left: 10px !important;
+   line-height: 30px !important;
+   font-weight: normal !important;
+   font-size: 20px !important;
+   height: 30px !important;
+   
+}
